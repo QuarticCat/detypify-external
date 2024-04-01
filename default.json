@@ -1,0 +1,5007 @@
+{
+  "commands": {
+    "cr": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "looparrowleft": {
+      "kind": "alias-sym",
+      "alias": "arrow.l.loop"
+    },
+    "arcsin": {
+      "kind": "sym"
+    },
+    "overlinesegment": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "notag": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "boxplus": {
+      "kind": "alias-sym",
+      "alias": "plus.square"
+    },
+    "Colonapprox": {
+      "kind": "alias-sym",
+      "alias": "::approx"
+    },
+    "Sigma": {
+      "kind": "sym"
+    },
+    "lBrace": {
+      "kind": "alias-sym",
+      "alias": "⦃"
+    },
+    "expandafter": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "smallsetminus": {
+      "kind": "alias-sym",
+      "alias": "without"
+    },
+    "daleth": {
+      "kind": "alias-sym",
+      "alias": "ℸ"
+    },
+    "triangleright": {
+      "kind": "alias-sym",
+      "alias": "triangle.stroked.small.r"
+    },
+    "varpropto": {
+      "kind": "alias-sym",
+      "alias": "prop"
+    },
+    "r": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "circle"
+    },
+    "rbrace": {
+      "kind": "alias-sym",
+      "alias": "\\}"
+    },
+    "renewenvironment": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "Chi": {
+      "kind": "sym"
+    },
+    "gneq": {
+      "kind": "alias-sym",
+      "alias": "⪈"
+    },
+    "Bumpeq": {
+      "kind": "alias-sym",
+      "alias": "≎"
+    },
+    "iint": {
+      "kind": "alias-sym",
+      "alias": "integral.double"
+    },
+    "big": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "neq": {
+      "kind": "alias-sym",
+      "alias": "!="
+    },
+    "vec": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "arrow"
+    },
+    "varsupsetneq": {
+      "kind": "alias-sym",
+      "alias": "supset.neq"
+    },
+    "langle": {
+      "kind": "alias-sym",
+      "alias": "angle.l"
+    },
+    "lg": {
+      "kind": "sym"
+    },
+    "twoheadrightarrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.r.twohead"
+    },
+    "textquoteleft": {
+      "kind": "alias-sym",
+      "alias": "quote.l.single"
+    },
+    "Large": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "cong": {
+      "kind": "alias-sym",
+      "alias": "tilde.equiv"
+    },
+    "overleftrightarrow": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "xhookleftarrow": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "DeclareRobustCommand*": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "approxeq": {
+      "kind": "alias-sym",
+      "alias": "approx.eq"
+    },
+    "lbrack": {
+      "kind": "alias-sym",
+      "alias": "bracket.l"
+    },
+    "tag": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "mitexlabel"
+    },
+    "leftharpoondown": {
+      "kind": "alias-sym",
+      "alias": "harpoon.lb"
+    },
+    "succnsim": {
+      "kind": "alias-sym",
+      "alias": "succ.ntilde"
+    },
+    "cdot": {
+      "kind": "alias-sym",
+      "alias": "dot.c"
+    },
+    "curlyvee": {
+      "kind": "alias-sym",
+      "alias": "or.curly"
+    },
+    "lozenge": {
+      "kind": "alias-sym",
+      "alias": "lozenge.stroked"
+    },
+    "color": {
+      "kind": "greedy-cmd",
+      "alias": "mitexcolor"
+    },
+    "land": {
+      "kind": "alias-sym",
+      "alias": "and"
+    },
+    "bra": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "longleftarrow": {
+      "kind": "alias-sym",
+      "alias": "<--"
+    },
+    "varnothing": {
+      "kind": "alias-sym",
+      "alias": "nothing"
+    },
+    "bar": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "macron"
+    },
+    "textdagger": {
+      "kind": "alias-sym",
+      "alias": "dagger"
+    },
+    "subseteqq": {
+      "kind": "alias-sym",
+      "alias": "⫅"
+    },
+    "u": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "breve"
+    },
+    "scriptscriptstyle": {
+      "kind": "greedy-cmd",
+      "alias": "mitexsscript"
+    },
+    "eqslantgtr": {
+      "kind": "alias-sym",
+      "alias": "⪖"
+    },
+    "blacktriangleright": {
+      "kind": "alias-sym",
+      "alias": "triangle.filled.r"
+    },
+    "vmatrix": {
+      "kind": "env",
+      "args": {
+        "kind": "none"
+      },
+      "ctx_feature": {
+        "kind": "is-matrix"
+      },
+      "alias": null
+    },
+    "sdot": {
+      "kind": "alias-sym",
+      "alias": "dot.c"
+    },
+    "longmapsto": {
+      "kind": "alias-sym",
+      "alias": "arrow.r.long.bar"
+    },
+    "Vert": {
+      "kind": "alias-sym",
+      "alias": "||"
+    },
+    "blacktriangledown": {
+      "kind": "alias-sym",
+      "alias": "triangle.filled.b"
+    },
+    "mathtt": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "mono"
+    },
+    "gathered": {
+      "kind": "env",
+      "args": {
+        "kind": "none"
+      },
+      "ctx_feature": {
+        "kind": "is-math"
+      },
+      "alias": "aligned"
+    },
+    "ggg": {
+      "kind": "alias-sym",
+      "alias": "gt.triple"
+    },
+    "ifvmode": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "precnapprox": {
+      "kind": "alias-sym",
+      "alias": "prec.napprox"
+    },
+    "varOmega": {
+      "kind": "sym"
+    },
+    "Zeta": {
+      "kind": "sym"
+    },
+    "frown": {
+      "kind": "alias-sym",
+      "alias": "⌢"
+    },
+    "def": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "varSigma": {
+      "kind": "sym"
+    },
+    "normalsize": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "sec": {
+      "kind": "sym"
+    },
+    "cancel": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "arctan": {
+      "kind": "sym"
+    },
+    "digamma": {
+      "kind": "alias-sym",
+      "alias": "ϝ"
+    },
+    "xrightarrow": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "curlyeqsucc": {
+      "kind": "alias-sym",
+      "alias": "eq.succ"
+    },
+    "xleftharpoonup": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "lessgtr": {
+      "kind": "alias-sym",
+      "alias": "lt.gt"
+    },
+    "H": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "acute.double"
+    },
+    "harr": {
+      "kind": "alias-sym",
+      "alias": "<->"
+    },
+    "bigcirc": {
+      "kind": "alias-sym",
+      "alias": "circle.stroked.big"
+    },
+    "hskip": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "Cup": {
+      "kind": "alias-sym",
+      "alias": "union.double"
+    },
+    "ProvideTextCommand": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "And": {
+      "kind": "alias-sym",
+      "alias": "amp"
+    },
+    "rightrightarrows": {
+      "kind": "alias-sym",
+      "alias": "arrows.rr"
+    },
+    "Upsilon": {
+      "kind": "sym"
+    },
+    "updownarrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.t.b"
+    },
+    "Bigg": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "lrArr": {
+      "kind": "alias-sym",
+      "alias": "<=>"
+    },
+    "ctg": {
+      "kind": "alias-sym",
+      "alias": "ctg"
+    },
+    "gggtr": {
+      "kind": "alias-sym",
+      "alias": ">>>"
+    },
+    "coloncolonapprox": {
+      "kind": "alias-sym",
+      "alias": "::approx"
+    },
+    "cdotp": {
+      "kind": "alias-sym",
+      "alias": "dot.c"
+    },
+    "textellipsis": {
+      "kind": "alias-sym",
+      "alias": "..."
+    },
+    "Pi": {
+      "kind": "sym"
+    },
+    "xleftharpoondown": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "upharpoonleft": {
+      "kind": "alias-sym",
+      "alias": "harpoon.tl"
+    },
+    "Join": {
+      "kind": "alias-sym",
+      "alias": "join"
+    },
+    "textsterling": {
+      "kind": "alias-sym",
+      "alias": "pound"
+    },
+    "injlim": {
+      "kind": "sym"
+    },
+    "rang": {
+      "kind": "alias-sym",
+      "alias": "angle.r"
+    },
+    "vcentcolon": {
+      "kind": "alias-sym",
+      "alias": ":"
+    },
+    "AtEndDocument": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "Vvdash": {
+      "kind": "alias-sym",
+      "alias": "⊪"
+    },
+    "notni": {
+      "kind": "alias-sym",
+      "alias": "in.rev.not"
+    },
+    "relax": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "Braket": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "inf": {
+      "kind": "sym"
+    },
+    "biggr": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "bigg"
+    },
+    "scriptstyle": {
+      "kind": "greedy-cmd",
+      "alias": "mitexscript"
+    },
+    "textregistered": {
+      "kind": "alias-sym",
+      "alias": "®"
+    },
+    "vdash": {
+      "kind": "alias-sym",
+      "alias": "tack.r"
+    },
+    "triangleleft": {
+      "kind": "alias-sym",
+      "alias": "triangle.stroked.small.l"
+    },
+    "ss": {
+      "kind": "alias-sym",
+      "alias": "ß"
+    },
+    "nless": {
+      "kind": "alias-sym",
+      "alias": "lt.not"
+    },
+    "curlywedge": {
+      "kind": "alias-sym",
+      "alias": "and.curly"
+    },
+    "propto": {
+      "kind": "alias-sym",
+      "alias": "prop"
+    },
+    "eta": {
+      "kind": "sym"
+    },
+    "longrightarrow": {
+      "kind": "alias-sym",
+      "alias": "-->"
+    },
+    "origof": {
+      "kind": "alias-sym",
+      "alias": "⊶"
+    },
+    "Alpha": {
+      "kind": "sym"
+    },
+    "impliedby": {
+      "kind": "alias-sym",
+      "alias": "<=="
+    },
+    "negthickspace": {
+      "kind": "sym"
+    },
+    "Rsh": {
+      "kind": "alias-sym",
+      "alias": "↱"
+    },
+    "sin": {
+      "kind": "sym"
+    },
+    "Ket": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "leftrightarrows": {
+      "kind": "alias-sym",
+      "alias": "arrows.lr"
+    },
+    "circeq": {
+      "kind": "alias-sym",
+      "alias": "≗"
+    },
+    "Colonsim": {
+      "kind": "alias-sym",
+      "alias": "::tilde.op"
+    },
+    "Reals": {
+      "kind": "alias-sym",
+      "alias": "RR"
+    },
+    "between": {
+      "kind": "alias-sym",
+      "alias": "≬"
+    },
+    "angle": {
+      "kind": "alias-sym",
+      "alias": "angle"
+    },
+    "textbar": {
+      "kind": "alias-sym",
+      "alias": "\\|"
+    },
+    "rBrace": {
+      "kind": "alias-sym",
+      "alias": "⦄"
+    },
+    "ast": {
+      "kind": "alias-sym",
+      "alias": "ast"
+    },
+    "unrhd": {
+      "kind": "alias-sym",
+      "alias": "gt.tri.eq"
+    },
+    "xLeftrightarrow": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "CheckCommand": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "mathring": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "TeX": {
+      "kind": "sym"
+    },
+    "vDash": {
+      "kind": "alias-sym",
+      "alias": "tack.r.double"
+    },
+    "div": {
+      "kind": "alias-sym",
+      "alias": "div"
+    },
+    "precneqq": {
+      "kind": "alias-sym",
+      "alias": "prec.nequiv"
+    },
+    "mu": {
+      "kind": "sym"
+    },
+    "perp": {
+      "kind": "alias-sym",
+      "alias": "perp"
+    },
+    "negthinspace": {
+      "kind": "sym"
+    },
+    "exists": {
+      "kind": "alias-sym",
+      "alias": "exists"
+    },
+    "ddddot": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "dot.quad"
+    },
+    "xrightleftharpoons": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    ";": {
+      "kind": "alias-sym",
+      "alias": "thick"
+    },
+    "brack": {
+      "kind": "infix-cmd",
+      "alias": "brack"
+    },
+    "bcancel": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "leqslant": {
+      "kind": "alias-sym",
+      "alias": "lt.eq.slant"
+    },
+    "breve": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "breve"
+    },
+    "textbackslash": {
+      "kind": "alias-sym",
+      "alias": "\\\\"
+    },
+    "sim": {
+      "kind": "alias-sym",
+      "alias": "tilde"
+    },
+    "leftharpoonup": {
+      "kind": "alias-sym",
+      "alias": "harpoon.lt"
+    },
+    "quad": {
+      "kind": "sym"
+    },
+    "tanh": {
+      "kind": "sym"
+    },
+    "acute": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "acute"
+    },
+    "newline": {
+      "kind": "alias-sym",
+      "alias": "\\"
+    },
+    "xi": {
+      "kind": "sym"
+    },
+    "Subset": {
+      "kind": "alias-sym",
+      "alias": "subset.double"
+    },
+    "textdaggerdbl": {
+      "kind": "alias-sym",
+      "alias": "dagger.double"
+    },
+    "ExecuteOptions": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "dotplus": {
+      "kind": "alias-sym",
+      "alias": "plus.dot"
+    },
+    "supset": {
+      "kind": "alias-sym",
+      "alias": "supset"
+    },
+    "ltimes": {
+      "kind": "alias-sym",
+      "alias": "times.l"
+    },
+    "xLeftarrow": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "circledcirc": {
+      "kind": "alias-sym",
+      "alias": "circle.nested"
+    },
+    "frac": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 2
+        }
+      },
+      "alias": null
+    },
+    "operatornamewithlimits": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "operatornamewithlimits"
+    },
+    "psi": {
+      "kind": "sym"
+    },
+    "beth": {
+      "kind": "alias-sym",
+      "alias": "beth"
+    },
+    "arcctg": {
+      "kind": "sym"
+    },
+    "DeclareOption*": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "cap": {
+      "kind": "alias-sym",
+      "alias": "sect"
+    },
+    "longleftrightarrow": {
+      "kind": "alias-sym",
+      "alias": "<-->"
+    },
+    "lnot": {
+      "kind": "alias-sym",
+      "alias": "not"
+    },
+    "dbinom": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 2
+        }
+      },
+      "alias": null
+    },
+    "newcommand": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "varsubsetneqq": {
+      "kind": "alias-sym",
+      "alias": "⫋"
+    },
+    "ifmmode": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "DeclareTextCommandDefault": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "dbcolon": {
+      "kind": "alias-sym",
+      "alias": "::"
+    },
+    "max": {
+      "kind": "sym"
+    },
+    "mathstrut": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "sout": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "$": {
+      "kind": "alias-sym",
+      "alias": "dollar"
+    },
+    "int": {
+      "kind": "alias-sym",
+      "alias": "integral"
+    },
+    "gamma": {
+      "kind": "sym"
+    },
+    "bigsqcup": {
+      "kind": "alias-sym",
+      "alias": "union.sq.big"
+    },
+    "oiiint": {
+      "kind": "alias-sym",
+      "alias": "integral.vol"
+    },
+    "textnormal": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "yen": {
+      "kind": "alias-sym",
+      "alias": "yen"
+    },
+    "rfloor": {
+      "kind": "alias-sym",
+      "alias": "⌋"
+    },
+    "cth": {
+      "kind": "sym"
+    },
+    "dashv": {
+      "kind": "alias-sym",
+      "alias": "tack.l"
+    },
+    "mathpunct": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "Lleftarrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.l.triple"
+    },
+    "osplash": {
+      "kind": "alias-sym",
+      "alias": "⊘"
+    },
+    "nsim": {
+      "kind": "alias-sym",
+      "alias": "tilde.not"
+    },
+    "nRightarrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.r.double.not"
+    },
+    "textunderscore": {
+      "kind": "alias-sym",
+      "alias": "\\_"
+    },
+    "sf": {
+      "kind": "greedy-cmd",
+      "alias": "mitexsans"
+    },
+    "displaystyle": {
+      "kind": "greedy-cmd",
+      "alias": "mitexdisplay"
+    },
+    "subsetneqq": {
+      "kind": "alias-sym",
+      "alias": "⫋"
+    },
+    "sh": {
+      "kind": "sym"
+    },
+    "lneq": {
+      "kind": "alias-sym",
+      "alias": "⪇"
+    },
+    "ni": {
+      "kind": "alias-sym",
+      "alias": "in.rev"
+    },
+    "textasciitilde": {
+      "kind": "alias-sym",
+      "alias": "~"
+    },
+    "coloncolonequals": {
+      "kind": "alias-sym",
+      "alias": "::="
+    },
+    "overleftarrow": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "arrow.l"
+    },
+    "lgroup": {
+      "kind": "alias-sym",
+      "alias": "⟮"
+    },
+    "dashleftarrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.l.dash"
+    },
+    "hat": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "hat"
+    },
+    "smallmatrix": {
+      "kind": "env",
+      "args": {
+        "kind": "none"
+      },
+      "ctx_feature": {
+        "kind": "is-matrix"
+      },
+      "alias": null
+    },
+    "Biggm": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "Bigg"
+    },
+    "vartriangleright": {
+      "kind": "alias-sym",
+      "alias": "gt.tri"
+    },
+    "xcancel": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "widetilde": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "tilde"
+    },
+    "Bra": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "to": {
+      "kind": "alias-sym",
+      "alias": "->"
+    },
+    "Biggr": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "Bigg"
+    },
+    "dArr": {
+      "kind": "alias-sym",
+      "alias": "arrow.b.double"
+    },
+    "ldotp": {
+      "kind": "alias-sym",
+      "alias": "."
+    },
+    "downharpoonleft": {
+      "kind": "alias-sym",
+      "alias": "harpoon.bl"
+    },
+    "boldsymbol": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "bold"
+    },
+    "binom": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 2
+        }
+      },
+      "alias": null
+    },
+    "vartriangle": {
+      "kind": "alias-sym",
+      "alias": "triangle.stroked.small.t"
+    },
+    "exp": {
+      "kind": "sym"
+    },
+    "bigvee": {
+      "kind": "alias-sym",
+      "alias": "or.big"
+    },
+    "lessdot": {
+      "kind": "alias-sym",
+      "alias": "lt.dot"
+    },
+    "gt": {
+      "kind": "alias-sym",
+      "alias": ">"
+    },
+    "lambda": {
+      "kind": "sym"
+    },
+    "le": {
+      "kind": "alias-sym",
+      "alias": "<="
+    },
+    "ProvidesClass": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "varXi": {
+      "kind": "sym"
+    },
+    "lneqq": {
+      "kind": "alias-sym",
+      "alias": "lt.nequiv"
+    },
+    "newenvironment*": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "omega": {
+      "kind": "sym"
+    },
+    "cite": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "#mitexcite"
+    },
+    "curvearrowright": {
+      "kind": "alias-sym",
+      "alias": "arrow.cw.half"
+    },
+    "dashrightarrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.r.dash"
+    },
+    "bull": {
+      "kind": "alias-sym",
+      "alias": "bullet"
+    },
+    "blacktriangle": {
+      "kind": "alias-sym",
+      "alias": "triangle.filled.t"
+    },
+    "nmid": {
+      "kind": "alias-sym",
+      "alias": "divides.not"
+    },
+    "ddots": {
+      "kind": "alias-sym",
+      "alias": "dots.down"
+    },
+    "intercal": {
+      "kind": "alias-sym",
+      "alias": "⊺"
+    },
+    "tau": {
+      "kind": "sym"
+    },
+    "cfrac": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 2
+        }
+      },
+      "alias": null
+    },
+    "approx": {
+      "kind": "alias-sym",
+      "alias": "approx"
+    },
+    "thickapprox": {
+      "kind": "sym"
+    },
+    "varLambda": {
+      "kind": "sym"
+    },
+    "deg": {
+      "kind": "sym"
+    },
+    "intop": {
+      "kind": "alias-sym",
+      "alias": "integral"
+    },
+    "Beta": {
+      "kind": "sym"
+    },
+    "renewcommand": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "Dagger": {
+      "kind": "alias-sym",
+      "alias": "dagger.double"
+    },
+    "OE": {
+      "kind": "alias-sym",
+      "alias": "Œ"
+    },
+    "label": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "mitexlabel"
+    },
+    "braket": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "alpha": {
+      "kind": "sym"
+    },
+    "emph": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "#emph"
+    },
+    "uparrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.t"
+    },
+    "sum": {
+      "kind": "sym"
+    },
+    "blacktriangleleft": {
+      "kind": "alias-sym",
+      "alias": "triangle.filled.l"
+    },
+    "Pr": {
+      "kind": "sym"
+    },
+    "natnums": {
+      "kind": "alias-sym",
+      "alias": "NN"
+    },
+    "delta": {
+      "kind": "sym"
+    },
+    "Rarr": {
+      "kind": "alias-sym",
+      "alias": "=>"
+    },
+    "atop": {
+      "kind": "infix-cmd",
+      "alias": "atop"
+    },
+    "nobreak": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "tfrac": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 2
+        }
+      },
+      "alias": null
+    },
+    "Rho": {
+      "kind": "sym"
+    },
+    "it": {
+      "kind": "greedy-cmd",
+      "alias": "mitexitalic"
+    },
+    "coloncolonsim": {
+      "kind": "alias-sym",
+      "alias": "::tilde.op"
+    },
+    "gather": {
+      "kind": "env",
+      "args": {
+        "kind": "none"
+      },
+      "ctx_feature": {
+        "kind": "is-math"
+      },
+      "alias": "aligned"
+    },
+    "matrix": {
+      "kind": "env",
+      "args": {
+        "kind": "none"
+      },
+      "ctx_feature": {
+        "kind": "is-matrix"
+      },
+      "alias": null
+    },
+    "vartheta": {
+      "kind": "alias-sym",
+      "alias": "theta.alt"
+    },
+    "Nu": {
+      "kind": "sym"
+    },
+    "preceq": {
+      "kind": "alias-sym",
+      "alias": "prec.eq"
+    },
+    "star": {
+      "kind": "alias-sym",
+      "alias": "star"
+    },
+    "sqrt": {
+      "kind": "glob-cmd",
+      "pattern": "{,b}t",
+      "alias": "mitexsqrt"
+    },
+    "subsection": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "#heading(level: 2)"
+    },
+    "align": {
+      "kind": "env",
+      "args": {
+        "kind": "none"
+      },
+      "ctx_feature": {
+        "kind": "is-math"
+      },
+      "alias": "aligned"
+    },
+    "textdegree": {
+      "kind": "alias-sym",
+      "alias": "degree"
+    },
+    "gimel": {
+      "kind": "alias-sym",
+      "alias": "gimel"
+    },
+    "bigoplus": {
+      "kind": "alias-sym",
+      "alias": "plus.circle.big"
+    },
+    "succnapprox": {
+      "kind": "alias-sym",
+      "alias": "succ.napprox"
+    },
+    "cases": {
+      "kind": "env",
+      "args": {
+        "kind": "none"
+      },
+      "ctx_feature": {
+        "kind": "is-cases"
+      },
+      "alias": "cases"
+    },
+    "oplus": {
+      "kind": "alias-sym",
+      "alias": "plus.circle"
+    },
+    "Omega": {
+      "kind": "sym"
+    },
+    "tt": {
+      "kind": "greedy-cmd",
+      "alias": "mitexmono"
+    },
+    "Delta": {
+      "kind": "sym"
+    },
+    "medspace": {
+      "kind": "alias-sym",
+      "alias": "med"
+    },
+    "min": {
+      "kind": "sym"
+    },
+    "lesseqqgtr": {
+      "kind": "alias-sym",
+      "alias": "⪋"
+    },
+    "leq": {
+      "kind": "alias-sym",
+      "alias": "<="
+    },
+    "sqsupseteq": {
+      "kind": "alias-sym",
+      "alias": "supset.eq.sq"
+    },
+    "omicron": {
+      "kind": "sym"
+    },
+    "circleddash": {
+      "kind": "alias-sym",
+      "alias": "dash.circle"
+    },
+    "over": {
+      "kind": "infix-cmd",
+      "alias": "frac"
+    },
+    "*": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "xtwoheadrightarrow": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "Epsilon": {
+      "kind": "sym"
+    },
+    "underbrace": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "mitexunderbrace"
+    },
+    "mod": {
+      "kind": "alias-sym",
+      "alias": "mod"
+    },
+    "nearrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.tr"
+    },
+    "textit": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "sinh": {
+      "kind": "sym"
+    },
+    "widecheck": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "caron"
+    },
+    "shortparallel": {
+      "kind": "alias-sym",
+      "alias": "parallel"
+    },
+    "varrho": {
+      "kind": "alias-sym",
+      "alias": "rho.alt"
+    },
+    "pounds": {
+      "kind": "alias-sym",
+      "alias": "pound"
+    },
+    "Q": {
+      "kind": "alias-sym",
+      "alias": "QQ"
+    },
+    "large": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "diagdown": {
+      "kind": "alias-sym",
+      "alias": "╲"
+    },
+    "fbox": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "precnsim": {
+      "kind": "alias-sym",
+      "alias": "prec.ntilde"
+    },
+    "textquoteright": {
+      "kind": "alias-sym",
+      "alias": "quote.r.single"
+    },
+    "infin": {
+      "kind": "alias-sym",
+      "alias": "infinity"
+    },
+    "geqslant": {
+      "kind": "alias-sym",
+      "alias": "gt.eq.slant"
+    },
+    "zeta": {
+      "kind": "sym"
+    },
+    "middle": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "newfont": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "gg": {
+      "kind": "alias-sym",
+      "alias": "gt.double"
+    },
+    "multimap": {
+      "kind": "alias-sym",
+      "alias": "multimap"
+    },
+    "veebar": {
+      "kind": "alias-sym",
+      "alias": "⊻"
+    },
+    "Updownarrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.t.b.double"
+    },
+    "mathsterling": {
+      "kind": "alias-sym",
+      "alias": "pound"
+    },
+    "set": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "rvert": {
+      "kind": "alias-sym",
+      "alias": "|"
+    },
+    "leqq": {
+      "kind": "alias-sym",
+      "alias": "lt.equiv"
+    },
+    "gtrless": {
+      "kind": "alias-sym",
+      "alias": "gt.lt"
+    },
+    "coloncolonminus": {
+      "kind": "alias-sym",
+      "alias": "::−"
+    },
+    "cosh": {
+      "kind": "sym"
+    },
+    "minuso": {
+      "kind": "alias-sym",
+      "alias": "⦵"
+    },
+    "align*": {
+      "kind": "env",
+      "args": {
+        "kind": "none"
+      },
+      "ctx_feature": {
+        "kind": "is-math"
+      },
+      "alias": "aligned"
+    },
+    "mathbb": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "bb"
+    },
+    "rmoustache": {
+      "kind": "alias-sym",
+      "alias": "⎱"
+    },
+    "nexists": {
+      "kind": "alias-sym",
+      "alias": "exists.not"
+    },
+    "renewenvironment*": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "dim": {
+      "kind": "sym"
+    },
+    "subarray": {
+      "kind": "env",
+      "args": {
+        "kind": "fixed-len",
+        "len": 1
+      },
+      "ctx_feature": {
+        "kind": "is-matrix"
+      },
+      "alias": "mitexarray"
+    },
+    "tiny": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "colonequals": {
+      "kind": "alias-sym",
+      "alias": ":="
+    },
+    "backprime": {
+      "kind": "alias-sym",
+      "alias": "prime.rev"
+    },
+    "v": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "caron"
+    },
+    "bullet": {
+      "kind": "alias-sym",
+      "alias": "bullet"
+    },
+    "LARGE": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "ngeqslant": {
+      "kind": "alias-sym",
+      "alias": "gt.eq.not"
+    },
+    "underset": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 2
+        }
+      },
+      "alias": null
+    },
+    "xleftrightharpoons": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "cot": {
+      "kind": "sym"
+    },
+    "varTheta": {
+      "kind": "sym"
+    },
+    "sube": {
+      "kind": "alias-sym",
+      "alias": "subset.eq"
+    },
+    "Doteq": {
+      "kind": "alias-sym",
+      "alias": "≑"
+    },
+    "varepsilon": {
+      "kind": "alias-sym",
+      "alias": "epsilon"
+    },
+    "mathclap": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "&": {
+      "kind": "alias-sym",
+      "alias": "amp"
+    },
+    "mathbin": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "newsavebox": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "hbar": {
+      "kind": "alias-sym",
+      "alias": "planck.reduce"
+    },
+    "not": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "cancel"
+    },
+    "widehat": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "hat"
+    },
+    "upsilon": {
+      "kind": "sym"
+    },
+    "therefore": {
+      "kind": "alias-sym",
+      "alias": "therefore"
+    },
+    "notin": {
+      "kind": "alias-sym",
+      "alias": "in.not"
+    },
+    "AtBeginDocument": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "rVert": {
+      "kind": "alias-sym",
+      "alias": "||"
+    },
+    "prec": {
+      "kind": "alias-sym",
+      "alias": "prec"
+    },
+    "because": {
+      "kind": "alias-sym",
+      "alias": "because"
+    },
+    "negmedspace": {
+      "kind": "sym"
+    },
+    "Harr": {
+      "kind": "alias-sym",
+      "alias": "<=>"
+    },
+    "emptyset": {
+      "kind": "alias-sym",
+      "alias": "nothing"
+    },
+    "leftarrowtail": {
+      "kind": "alias-sym",
+      "alias": "arrow.l.tail"
+    },
+    "lesseqgtr": {
+      "kind": "alias-sym",
+      "alias": "lt.eq.gt"
+    },
+    "ker": {
+      "kind": "sym"
+    },
+    "vphantom": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "simcoloncolon": {
+      "kind": "alias-sym",
+      "alias": "tilde.op::"
+    },
+    "backslash": {
+      "kind": "alias-sym",
+      "alias": "backslash"
+    },
+    "sharp": {
+      "kind": "alias-sym",
+      "alias": "♯"
+    },
+    "varphi": {
+      "kind": "alias-sym",
+      "alias": "phi"
+    },
+    "rightleftarrows": {
+      "kind": "alias-sym",
+      "alias": "arrows.rl"
+    },
+    "hookrightarrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.r.hook"
+    },
+    "ntriangleright": {
+      "kind": "alias-sym",
+      "alias": "gt.tri.not"
+    },
+    "nLeftrightarrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.l.r.double.not"
+    },
+    "nleftrightarrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.l.r.not"
+    },
+    "bigtriangledown": {
+      "kind": "alias-sym",
+      "alias": "triangle.stroked.b"
+    },
+    "gnapprox": {
+      "kind": "alias-sym",
+      "alias": "⪊"
+    },
+    "vee": {
+      "kind": "alias-sym",
+      "alias": "or"
+    },
+    "overleftharpoon": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "ge": {
+      "kind": "alias-sym",
+      "alias": ">="
+    },
+    "succeq": {
+      "kind": "alias-sym",
+      "alias": "succ.eq"
+    },
+    "uArr": {
+      "kind": "alias-sym",
+      "alias": "arrow.t.double"
+    },
+    "dotsc": {
+      "kind": "alias-sym",
+      "alias": "dots.h"
+    },
+    "lnsim": {
+      "kind": "alias-sym",
+      "alias": "lt.ntilde"
+    },
+    "arg": {
+      "kind": "sym"
+    },
+    "%": {
+      "kind": "alias-sym",
+      "alias": "percent"
+    },
+    "nonumber": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "underbracket": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "mitexunderbracket"
+    },
+    "wedge": {
+      "kind": "alias-sym",
+      "alias": "and"
+    },
+    "brace": {
+      "kind": "infix-cmd",
+      "alias": "brace"
+    },
+    "copyright": {
+      "kind": "alias-sym",
+      "alias": "copyright"
+    },
+    "ch": {
+      "kind": "sym"
+    },
+    "upharpoonright": {
+      "kind": "alias-sym",
+      "alias": "harpoon.tr"
+    },
+    "InputIfFileExists": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "raisebox": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 2
+        }
+      },
+      "alias": null
+    },
+    "nobreakspace": {
+      "kind": "alias-sym",
+      "alias": "space.nobreak"
+    },
+    "surd": {
+      "kind": "alias-sym",
+      "alias": "\\√"
+    },
+    "dotsm": {
+      "kind": "alias-sym",
+      "alias": "dots.h.c"
+    },
+    "hookleftarrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.l.hook"
+    },
+    "LaTeX": {
+      "kind": "sym"
+    },
+    "Vdash": {
+      "kind": "alias-sym",
+      "alias": "⊩"
+    },
+    "lesssim": {
+      "kind": "alias-sym",
+      "alias": "lt.tilde"
+    },
+    "log": {
+      "kind": "sym"
+    },
+    "Bmatrix": {
+      "kind": "env",
+      "args": {
+        "kind": "none"
+      },
+      "ctx_feature": {
+        "kind": "is-matrix"
+      },
+      "alias": null
+    },
+    "npreceq": {
+      "kind": "alias-sym",
+      "alias": "prec.eq.not"
+    },
+    ":": {
+      "kind": "alias-sym",
+      "alias": "med"
+    },
+    "eth": {
+      "kind": "alias-sym",
+      "alias": "ð"
+    },
+    "i": {
+      "kind": "alias-sym",
+      "alias": "dotless.i"
+    },
+    "Bigr": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "Big"
+    },
+    "pm": {
+      "kind": "alias-sym",
+      "alias": "plus.minus"
+    },
+    "uarr": {
+      "kind": "alias-sym",
+      "alias": "arrow.t"
+    },
+    "dotso": {
+      "kind": "alias-sym",
+      "alias": "dots.h"
+    },
+    "nparallel": {
+      "kind": "alias-sym",
+      "alias": "parallel.not"
+    },
+    "vdots": {
+      "kind": "alias-sym",
+      "alias": "dots.v"
+    },
+    "textasciicircum": {
+      "kind": "alias-sym",
+      "alias": "\\^"
+    },
+    "tbinom": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 2
+        }
+      },
+      "alias": null
+    },
+    "leftrightharpoons": {
+      "kind": "alias-sym",
+      "alias": "harpoons.ltrb"
+    },
+    "Diamond": {
+      "kind": "alias-sym",
+      "alias": "diamond.stroked"
+    },
+    "varDelta": {
+      "kind": "sym"
+    },
+    "begingroup": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "noexpand": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "rbrack": {
+      "kind": "alias-sym",
+      "alias": "bracket.r"
+    },
+    "doteq": {
+      "kind": "alias-sym",
+      "alias": "≐"
+    },
+    "supsetneqq": {
+      "kind": "alias-sym",
+      "alias": "⫌"
+    },
+    "textstyle": {
+      "kind": "greedy-cmd",
+      "alias": "mitexinline"
+    },
+    "lceil": {
+      "kind": "alias-sym",
+      "alias": "⌈"
+    },
+    "cnums": {
+      "kind": "alias-sym",
+      "alias": "CC"
+    },
+    "bigr": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "big"
+    },
+    "Lambda": {
+      "kind": "sym"
+    },
+    "triangle": {
+      "kind": "alias-sym",
+      "alias": "triangle.stroked.t"
+    },
+    "nleq": {
+      "kind": "alias-sym",
+      "alias": "lt.eq.not"
+    },
+    "lcm": {
+      "kind": "sym"
+    },
+    "hline": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "thickspace": {
+      "kind": "alias-sym",
+      "alias": "thick"
+    },
+    "boxminus": {
+      "kind": "alias-sym",
+      "alias": "minus.square"
+    },
+    "llcorner": {
+      "kind": "alias-sym",
+      "alias": "⌞"
+    },
+    "newlength": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "phantom": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "Longleftrightarrow": {
+      "kind": "alias-sym",
+      "alias": "<==>"
+    },
+    "mathnormal": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "italic"
+    },
+    "asymp": {
+      "kind": "alias-sym",
+      "alias": "≍"
+    },
+    "downharpoonright": {
+      "kind": "alias-sym",
+      "alias": "harpoon.br"
+    },
+    "sigma": {
+      "kind": "sym"
+    },
+    "newcounter": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "lq": {
+      "kind": "alias-sym",
+      "alias": "quote.l.single"
+    },
+    "LoadClassWithOptions": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "Leftarrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.l.double"
+    },
+    "dot": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "dot"
+    },
+    "ntrianglerighteq": {
+      "kind": "alias-sym",
+      "alias": "gt.tri.eq.not"
+    },
+    "sup": {
+      "kind": "sym"
+    },
+    "AtEndOfPackage": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "varbeta": {
+      "kind": "alias-sym",
+      "alias": "beta.alt"
+    },
+    "biggl": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "bigg"
+    },
+    "CheckCommand*": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "PassOptionsToPackage": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "rrbracket": {
+      "kind": "alias-sym",
+      "alias": "bracket.r.double"
+    },
+    "Rightarrow": {
+      "kind": "alias-sym",
+      "alias": "=>"
+    },
+    "textsf": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "ignorespacesafterend": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "Finv": {
+      "kind": "alias-sym",
+      "alias": "Ⅎ"
+    },
+    "dddot": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "dot.triple"
+    },
+    "xleftrightarrow": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "wp": {
+      "kind": "alias-sym",
+      "alias": "℘"
+    },
+    "bmatrix": {
+      "kind": "env",
+      "args": {
+        "kind": "none"
+      },
+      "ctx_feature": {
+        "kind": "is-matrix"
+      },
+      "alias": null
+    },
+    "wr": {
+      "kind": "alias-sym",
+      "alias": "wreath"
+    },
+    "ulcorner": {
+      "kind": "alias-sym",
+      "alias": "⌜"
+    },
+    "Box": {
+      "kind": "alias-sym",
+      "alias": "ballot"
+    },
+    "arctg": {
+      "kind": "sym"
+    },
+    "ngtr": {
+      "kind": "alias-sym",
+      "alias": "gt.not"
+    },
+    "downdownarrows": {
+      "kind": "alias-sym",
+      "alias": "arrows.bb"
+    },
+    "IfFileExists": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "textcolor": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 2
+        }
+      },
+      "alias": "colortext"
+    },
+    "leadsto": {
+      "kind": "alias-sym",
+      "alias": "arrow.r.squiggly"
+    },
+    "epsilon": {
+      "kind": "alias-sym",
+      "alias": "epsilon.alt"
+    },
+    "newtheorem": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "lll": {
+      "kind": "alias-sym",
+      "alias": "lt.triple"
+    },
+    "nsucc": {
+      "kind": "alias-sym",
+      "alias": "succ.not"
+    },
+    "operatorname*": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "operatornamewithlimits"
+    },
+    "j": {
+      "kind": "alias-sym",
+      "alias": "dotless.j"
+    },
+    "Im": {
+      "kind": "alias-sym",
+      "alias": "Im"
+    },
+    "hslash": {
+      "kind": "alias-sym",
+      "alias": "planck.reduce"
+    },
+    "models": {
+      "kind": "alias-sym",
+      "alias": "models"
+    },
+    "clubsuit": {
+      "kind": "alias-sym",
+      "alias": "suit.club"
+    },
+    "owns": {
+      "kind": "alias-sym",
+      "alias": "in.rev"
+    },
+    "overbrace": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "mitexoverbrace"
+    },
+    "overrightarrow": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "arrow"
+    },
+    "diamondsuit": {
+      "kind": "alias-sym",
+      "alias": "diamond.stroked"
+    },
+    "bigtimes": {
+      "kind": "alias-sym",
+      "alias": "times.circle.big"
+    },
+    "searrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.br"
+    },
+    "gnsim": {
+      "kind": "alias-sym",
+      "alias": "gt.ntilde"
+    },
+    "simcolon": {
+      "kind": "alias-sym",
+      "alias": "tilde.op:"
+    },
+    "times": {
+      "kind": "alias-sym",
+      "alias": "times"
+    },
+    "succcurlyeq": {
+      "kind": "alias-sym",
+      "alias": "succ.eq"
+    },
+    "mathellipsis": {
+      "kind": "alias-sym",
+      "alias": "..."
+    },
+    "lparen": {
+      "kind": "alias-sym",
+      "alias": "paren.l"
+    },
+    "textless": {
+      "kind": "alias-sym",
+      "alias": "lt"
+    },
+    "Uparrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.t.double"
+    },
+    "pmod": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "bf": {
+      "kind": "greedy-cmd",
+      "alias": "mitexbold"
+    },
+    "supseteq": {
+      "kind": "alias-sym",
+      "alias": "supset.eq"
+    },
+    "Psi": {
+      "kind": "sym"
+    },
+    "LoadClass": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "otimes": {
+      "kind": "alias-sym",
+      "alias": "times.circle"
+    },
+    "newcommand*": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "frak": {
+      "kind": "greedy-cmd",
+      "alias": "mitexfrak"
+    },
+    "nVDash": {
+      "kind": "alias-sym",
+      "alias": "⊯"
+    },
+    "tilde": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "tilde"
+    },
+    "blacksquare": {
+      "kind": "alias-sym",
+      "alias": "qed"
+    },
+    "fallingdotseq": {
+      "kind": "alias-sym",
+      "alias": "≒"
+    },
+    "if": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "bigtriangleup": {
+      "kind": "alias-sym",
+      "alias": "triangle.stroked.t"
+    },
+    "nLeftarrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.l.double.not"
+    },
+    "nwarrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.tl"
+    },
+    "maltese": {
+      "kind": "alias-sym",
+      "alias": "maltese"
+    },
+    "pod": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "cup": {
+      "kind": "alias-sym",
+      "alias": "union"
+    },
+    "real": {
+      "kind": "alias-sym",
+      "alias": "Re"
+    },
+    "thinspace": {
+      "kind": "alias-sym",
+      "alias": "thin"
+    },
+    "mho": {
+      "kind": "alias-sym",
+      "alias": "ohm.inv"
+    },
+    "sqsubseteq": {
+      "kind": "alias-sym",
+      "alias": "subset.eq.sq"
+    },
+    "biggm": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "bigg"
+    },
+    "textbraceright": {
+      "kind": "alias-sym",
+      "alias": "}"
+    },
+    "coloneqq": {
+      "kind": "alias-sym",
+      "alias": ":="
+    },
+    "triangledown": {
+      "kind": "alias-sym",
+      "alias": "triangle.stroked.small.b"
+    },
+    "mathclose": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "gtrsim": {
+      "kind": "alias-sym",
+      "alias": "gt.tilde"
+    },
+    "leftleftarrows": {
+      "kind": "alias-sym",
+      "alias": "arrows.ll"
+    },
+    "mkern": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "colonsim": {
+      "kind": "alias-sym",
+      "alias": ":tilde.op"
+    },
+    "ntriangleleft": {
+      "kind": "alias-sym",
+      "alias": "lt.tri.not"
+    },
+    "succapprox": {
+      "kind": "alias-sym",
+      "alias": "succ.approx"
+    },
+    "Xi": {
+      "kind": "sym"
+    },
+    "rightharpoonup": {
+      "kind": "alias-sym",
+      "alias": "harpoon.rt"
+    },
+    "restriction": {
+      "kind": "alias-sym",
+      "alias": "harpoon.tr"
+    },
+    "varpi": {
+      "kind": "alias-sym",
+      "alias": "pi.alt"
+    },
+    "cdots": {
+      "kind": "alias-sym",
+      "alias": "dots.h.c"
+    },
+    "bmod": {
+      "kind": "alias-sym",
+      "alias": "mod"
+    },
+    "texttt": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "gneqq": {
+      "kind": "alias-sym",
+      "alias": "gt.nequiv"
+    },
+    "ldots": {
+      "kind": "alias-sym",
+      "alias": "dots.h"
+    },
+    "cotg": {
+      "kind": "sym"
+    },
+    "rightarrowtail": {
+      "kind": "alias-sym",
+      "alias": "arrow.r.tail"
+    },
+    "rArr": {
+      "kind": "alias-sym",
+      "alias": "=>"
+    },
+    "underline": {
+      "kind": "cmd1"
+    },
+    "DeclareTextCommand": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "AtEndOfClass": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "Bigl": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "Big"
+    },
+    "ntrianglelefteq": {
+      "kind": "alias-sym",
+      "alias": "lt.tri.eq.not"
+    },
+    "RequirePackageWithOptions": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "leftrightarrow": {
+      "kind": "alias-sym",
+      "alias": "<->"
+    },
+    "kappa": {
+      "kind": "sym"
+    },
+    "varPi": {
+      "kind": "sym"
+    },
+    "mathop": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "Cap": {
+      "kind": "alias-sym",
+      "alias": "sect.double"
+    },
+    "gcd": {
+      "kind": "sym"
+    },
+    "spadesuit": {
+      "kind": "alias-sym",
+      "alias": "suit.spade"
+    },
+    "neg": {
+      "kind": "alias-sym",
+      "alias": "not"
+    },
+    "ln": {
+      "kind": "sym"
+    },
+    "Longrightarrow": {
+      "kind": "alias-sym",
+      "alias": "==>"
+    },
+    "clubs": {
+      "kind": "alias-sym",
+      "alias": "suit.club"
+    },
+    "ne": {
+      "kind": "alias-sym",
+      "alias": "!="
+    },
+    "dfrac": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 2
+        }
+      },
+      "alias": null
+    },
+    "colorbox": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 2
+        }
+      },
+      "alias": null
+    },
+    "newenvironment": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "theta": {
+      "kind": "sym"
+    },
+    "lArr": {
+      "kind": "alias-sym",
+      "alias": "arrow.l.double"
+    },
+    "liminf": {
+      "kind": "sym"
+    },
+    "Lrarr": {
+      "kind": "alias-sym",
+      "alias": "<=>"
+    },
+    "bot": {
+      "kind": "alias-sym",
+      "alias": "bot"
+    },
+    "boxdot": {
+      "kind": "alias-sym",
+      "alias": "dot.square"
+    },
+    "rparen": {
+      "kind": "alias-sym",
+      "alias": "paren.r"
+    },
+    "heartsuit": {
+      "kind": "alias-sym",
+      "alias": "♡"
+    },
+    "xleftarrow": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "pi": {
+      "kind": "sym"
+    },
+    "isin": {
+      "kind": "alias-sym",
+      "alias": "in"
+    },
+    "lhd": {
+      "kind": "alias-sym",
+      "alias": "triangle.stroked.l"
+    },
+    "lessapprox": {
+      "kind": "alias-sym",
+      "alias": "⪅"
+    },
+    "gets": {
+      "kind": "alias-sym",
+      "alias": "<-"
+    },
+    "rarr": {
+      "kind": "alias-sym",
+      "alias": "->"
+    },
+    "precsim": {
+      "kind": "alias-sym",
+      "alias": "prec.tilde"
+    },
+    "supe": {
+      "kind": "alias-sym",
+      "alias": "supset.eq"
+    },
+    "AA": {
+      "kind": "alias-sym",
+      "alias": "circle(A)"
+    },
+    "scriptsize": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "footnote": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "#footnote"
+    },
+    "phi": {
+      "kind": "alias-sym",
+      "alias": "phi.alt"
+    },
+    "nVdash": {
+      "kind": "alias-sym",
+      "alias": "⊮"
+    },
+    "iftrue": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "ifx": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "bumpeq": {
+      "kind": "alias-sym",
+      "alias": "≏"
+    },
+    "boxed": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "Uarr": {
+      "kind": "alias-sym",
+      "alias": "arrow.t.double"
+    },
+    "Eqcolon": {
+      "kind": "alias-sym",
+      "alias": "−::"
+    },
+    "alefsym": {
+      "kind": "alias-sym",
+      "alias": "aleph"
+    },
+    "grave": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "grave"
+    },
+    "ddot": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "dot.double"
+    },
+    "overline": {
+      "kind": "cmd1"
+    },
+    "geq": {
+      "kind": "alias-sym",
+      "alias": ">="
+    },
+    "diagup": {
+      "kind": "alias-sym",
+      "alias": "╱"
+    },
+    "mathbf": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "mitexmathbf"
+    },
+    "rightleftharpoons": {
+      "kind": "alias-sym",
+      "alias": "harpoons.rtlb"
+    },
+    "backsim": {
+      "kind": "alias-sym",
+      "alias": "tilde.rev"
+    },
+    "prod": {
+      "kind": "alias-sym",
+      "alias": "product"
+    },
+    "lor": {
+      "kind": "alias-sym",
+      "alias": "or"
+    },
+    "Vmatrix": {
+      "kind": "env",
+      "args": {
+        "kind": "none"
+      },
+      "ctx_feature": {
+        "kind": "is-matrix"
+      },
+      "alias": null
+    },
+    "csc": {
+      "kind": "sym"
+    },
+    "image": {
+      "kind": "alias-sym",
+      "alias": "Im"
+    },
+    "bigcap": {
+      "kind": "alias-sym",
+      "alias": "sect.big"
+    },
+    "mathopen": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "operatorname": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "mskip": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    ">": {
+      "kind": "alias-sym",
+      "alias": "med"
+    },
+    "^": {
+      "kind": "alias-sym",
+      "alias": "hat"
+    },
+    "Huge": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "jmath": {
+      "kind": "alias-sym",
+      "alias": "dotless.j"
+    },
+    "dotsb": {
+      "kind": "alias-sym",
+      "alias": "dots.h.c"
+    },
+    "barwedge": {
+      "kind": "alias-sym",
+      "alias": "⊼"
+    },
+    "doublebarwedge": {
+      "kind": "alias-sym",
+      "alias": "⩞"
+    },
+    "gtrdot": {
+      "kind": "alias-sym",
+      "alias": "gt.dot"
+    },
+    "lrcorner": {
+      "kind": "alias-sym",
+      "alias": "⌟"
+    },
+    "enumerate": {
+      "kind": "env",
+      "args": {
+        "kind": "none"
+      },
+      "ctx_feature": {
+        "kind": "is-enumerate"
+      },
+      "alias": null
+    },
+    "circledR": {
+      "kind": "alias-sym",
+      "alias": "®"
+    },
+    "circ": {
+      "kind": "alias-sym",
+      "alias": "compose"
+    },
+    "huge": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "R": {
+      "kind": "alias-sym",
+      "alias": "RR"
+    },
+    "succneqq": {
+      "kind": "alias-sym",
+      "alias": "succ.nequiv"
+    },
+    "downarrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.b"
+    },
+    "varsupsetneqq": {
+      "kind": "alias-sym",
+      "alias": "⫌"
+    },
+    "ell": {
+      "kind": "sym"
+    },
+    "Coloneqq": {
+      "kind": "alias-sym",
+      "alias": "::="
+    },
+    "varsigma": {
+      "kind": "alias-sym",
+      "alias": "sigma.alt"
+    },
+    "subsubsection": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "#heading(level: 3)"
+    },
+    "projlim": {
+      "kind": "sym"
+    },
+    "complement": {
+      "kind": "alias-sym",
+      "alias": "complement"
+    },
+    "lrarr": {
+      "kind": "alias-sym",
+      "alias": "<->"
+    },
+    "rhd": {
+      "kind": "alias-sym",
+      "alias": "triangle.stroked.r"
+    },
+    "lVert": {
+      "kind": "alias-sym",
+      "alias": "||"
+    },
+    "minuscolon": {
+      "kind": "alias-sym",
+      "alias": "dash.colon"
+    },
+    "ncong": {
+      "kind": "alias-sym",
+      "alias": "tilde.equiv.not"
+    },
+    "lnapprox": {
+      "kind": "alias-sym",
+      "alias": "⪉"
+    },
+    "square": {
+      "kind": "alias-sym",
+      "alias": "square.stroked"
+    },
+    "amalg": {
+      "kind": "alias-sym",
+      "alias": "product.co"
+    },
+    "arccos": {
+      "kind": "sym"
+    },
+    "divideontimes": {
+      "kind": "alias-sym",
+      "alias": "times.div"
+    },
+    "vline": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "providecommand*": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "textdollarsign": {
+      "kind": "alias-sym",
+      "alias": "\\$"
+    },
+    "array": {
+      "kind": "env",
+      "args": {
+        "kind": "fixed-len",
+        "len": 1
+      },
+      "ctx_feature": {
+        "kind": "is-matrix"
+      },
+      "alias": "mitexarray"
+    },
+    "imageof": {
+      "kind": "alias-sym",
+      "alias": "⊷"
+    },
+    "ifhmode": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "thetasym": {
+      "kind": "alias-sym",
+      "alias": "theta.alt"
+    },
+    "dagger": {
+      "kind": "alias-sym",
+      "alias": "dagger"
+    },
+    "circledast": {
+      "kind": "alias-sym",
+      "alias": "ast.circle"
+    },
+    "section": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "#heading(level: 1)"
+    },
+    "Tau": {
+      "kind": "sym"
+    },
+    "natural": {
+      "kind": "alias-sym",
+      "alias": "♮"
+    },
+    "bigg": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "PassOptionsToClass": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "overbracket": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "mitexoverbracket"
+    },
+    "Bigm": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "Big"
+    },
+    "Rrightarrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.r.triple"
+    },
+    "pitchfork": {
+      "kind": "alias-sym",
+      "alias": "⋔"
+    },
+    "colon": {
+      "kind": "alias-sym",
+      "alias": "colon"
+    },
+    "ngeq": {
+      "kind": "alias-sym",
+      "alias": "gt.eq.not"
+    },
+    "tg": {
+      "kind": "alias-sym",
+      "alias": "tg"
+    },
+    "leftthreetimes": {
+      "kind": "alias-sym",
+      "alias": "times.three.l"
+    },
+    "doublecap": {
+      "kind": "alias-sym",
+      "alias": "sect.double"
+    },
+    "pmatrix": {
+      "kind": "env",
+      "args": {
+        "kind": "none"
+      },
+      "ctx_feature": {
+        "kind": "is-matrix"
+      },
+      "alias": null
+    },
+    "AE": {
+      "kind": "alias-sym",
+      "alias": "Æ"
+    },
+    "curlyeqprec": {
+      "kind": "alias-sym",
+      "alias": "eq.prec"
+    },
+    "tan": {
+      "kind": "sym"
+    },
+    "mathit": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "italic"
+    },
+    "mp": {
+      "kind": "alias-sym",
+      "alias": "minus.plus"
+    },
+    "@ifstar": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "textemdash": {
+      "kind": "alias-sym",
+      "alias": "---"
+    },
+    "eqqcolon": {
+      "kind": "alias-sym",
+      "alias": "=:"
+    },
+    "ProvidesFile": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "rm": {
+      "kind": "greedy-cmd",
+      "alias": "mitexupright"
+    },
+    "oint": {
+      "kind": "alias-sym",
+      "alias": "integral.cont"
+    },
+    "xtwoheadleftarrow": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "risingdotseq": {
+      "kind": "alias-sym",
+      "alias": "≓"
+    },
+    "supseteqq": {
+      "kind": "alias-sym",
+      "alias": "⫆"
+    },
+    "circlearrowright": {
+      "kind": "alias-sym",
+      "alias": "arrow.cw"
+    },
+    "colonapprox": {
+      "kind": "alias-sym",
+      "alias": ":approx"
+    },
+    "trianglelefteq": {
+      "kind": "alias-sym",
+      "alias": "lt.tri.eq"
+    },
+    "bigstar": {
+      "kind": "alias-sym",
+      "alias": "star.stroked"
+    },
+    "limsup": {
+      "kind": "sym"
+    },
+    "substack": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "bowtie": {
+      "kind": "alias-sym",
+      "alias": "⋈"
+    },
+    "{": {
+      "kind": "alias-sym",
+      "alias": "\\{"
+    },
+    "rangle": {
+      "kind": "alias-sym",
+      "alias": "angle.r"
+    },
+    "upuparrows": {
+      "kind": "alias-sym",
+      "alias": "arrows.tt"
+    },
+    "nu": {
+      "kind": "sym"
+    },
+    "leftarrow": {
+      "kind": "alias-sym",
+      "alias": "<-"
+    },
+    "textrm": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "Darr": {
+      "kind": "alias-sym",
+      "alias": "arrow.b.double"
+    },
+    "ae": {
+      "kind": "alias-sym",
+      "alias": "æ"
+    },
+    "sect": {
+      "kind": "alias-sym",
+      "alias": "section"
+    },
+    "diamonds": {
+      "kind": "alias-sym",
+      "alias": "diamond.stroked"
+    },
+    "ProvideTextCommandDefault": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "oiint": {
+      "kind": "alias-sym",
+      "alias": "integral.surf"
+    },
+    "lvert": {
+      "kind": "alias-sym",
+      "alias": "|"
+    },
+    "xtofrom": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "Iota": {
+      "kind": "sym"
+    },
+    "item": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "lim": {
+      "kind": "sym"
+    },
+    "CurrentOption": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "dotsi": {
+      "kind": "alias-sym",
+      "alias": "dots.h.c"
+    },
+    "rho": {
+      "kind": "sym"
+    },
+    "llless": {
+      "kind": "alias-sym",
+      "alias": "<<<"
+    },
+    "subseteq": {
+      "kind": "alias-sym",
+      "alias": "subset.eq"
+    },
+    "textbardbl": {
+      "kind": "alias-sym",
+      "alias": "‖"
+    },
+    "Kappa": {
+      "kind": "sym"
+    },
+    "vspace": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "nolimits": {
+      "kind": "cmd",
+      "args": {
+        "kind": "left1"
+      },
+      "alias": "scripts"
+    },
+    "iiint": {
+      "kind": "alias-sym",
+      "alias": "integral.triple"
+    },
+    "ddagger": {
+      "kind": "alias-sym",
+      "alias": "dagger.double"
+    },
+    "thicksim": {
+      "kind": "sym"
+    },
+    "xhookrightarrow": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "ProcessOptions": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "lang": {
+      "kind": "alias-sym",
+      "alias": "angle.l"
+    },
+    "xrightharpoonup": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "overset": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 2
+        }
+      },
+      "alias": null
+    },
+    "bigdot": {
+      "kind": "alias-sym",
+      "alias": "dot.circle.big"
+    },
+    "alignedat": {
+      "kind": "env",
+      "args": {
+        "kind": "fixed-len",
+        "len": 1
+      },
+      "ctx_feature": {
+        "kind": "is-math"
+      },
+      "alias": "alignedat"
+    },
+    "hArr": {
+      "kind": "alias-sym",
+      "alias": "<=>"
+    },
+    "coloneq": {
+      "kind": "alias-sym",
+      "alias": ":−"
+    },
+    "bigotimes": {
+      "kind": "alias-sym",
+      "alias": "times.circle.big"
+    },
+    "mathord": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "text": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "textmath"
+    },
+    "backepsilon": {
+      "kind": "alias-sym",
+      "alias": "in.rev.small"
+    },
+    "diamond": {
+      "kind": "alias-sym",
+      "alias": "diamond.stroked.small"
+    },
+    "choose": {
+      "kind": "infix-cmd",
+      "alias": "binom"
+    },
+    "weierp": {
+      "kind": "alias-sym",
+      "alias": "℘"
+    },
+    "eqcirc": {
+      "kind": "alias-sym",
+      "alias": "≖"
+    },
+    "ominus": {
+      "kind": "alias-sym",
+      "alias": "minus.circle"
+    },
+    "mid": {
+      "kind": "alias-sym",
+      "alias": "divides"
+    },
+    "sqsupset": {
+      "kind": "alias-sym",
+      "alias": "supset.sq"
+    },
+    "mathsf": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "sans"
+    },
+    "varsubsetneq": {
+      "kind": "alias-sym",
+      "alias": "subset.neq"
+    },
+    "ifinner": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "cos": {
+      "kind": "sym"
+    },
+    "rightarrow": {
+      "kind": "alias-sym",
+      "alias": "->"
+    },
+    "nsupseteq": {
+      "kind": "alias-sym",
+      "alias": "supset.eq.not"
+    },
+    "rceil": {
+      "kind": "alias-sym",
+      "alias": "⌉"
+    },
+    "sqsubset": {
+      "kind": "alias-sym",
+      "alias": "subset.sq"
+    },
+    "nabla": {
+      "kind": "alias-sym",
+      "alias": "nabla"
+    },
+    "iota": {
+      "kind": "sym"
+    },
+    "o": {
+      "kind": "alias-sym",
+      "alias": "nothing"
+    },
+    "cosec": {
+      "kind": "sym"
+    },
+    "circlearrowleft": {
+      "kind": "alias-sym",
+      "alias": "arrow.ccw"
+    },
+    "blacklozenge": {
+      "kind": "alias-sym",
+      "alias": "lozenge.filled"
+    },
+    "ket": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "Mu": {
+      "kind": "sym"
+    },
+    "smallsmile": {
+      "kind": "alias-sym",
+      "alias": "⌣"
+    },
+    "mathinner": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "leftrightsquigarrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.l.r.wave"
+    },
+    "minuscoloncolon": {
+      "kind": "alias-sym",
+      "alias": "−::"
+    },
+    "prime": {
+      "kind": "alias-sym",
+      "alias": "prime"
+    },
+    "P": {
+      "kind": "alias-sym",
+      "alias": "pilcrow"
+    },
+    "xmapsto": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "supsetneq": {
+      "kind": "alias-sym",
+      "alias": "supset.neq"
+    },
+    "lfloor": {
+      "kind": "alias-sym",
+      "alias": "⌊"
+    },
+    "small": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "hphantom": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "beta": {
+      "kind": "sym"
+    },
+    "gtreqless": {
+      "kind": "alias-sym",
+      "alias": "gt.eq.lt"
+    },
+    "biguplus": {
+      "kind": "alias-sym",
+      "alias": "union.plus.big"
+    },
+    "hearts": {
+      "kind": "alias-sym",
+      "alias": "♡"
+    },
+    "chi": {
+      "kind": "sym"
+    },
+    "Z": {
+      "kind": "alias-sym",
+      "alias": "ZZ"
+    },
+    "Theta": {
+      "kind": "sym"
+    },
+    "unlhd": {
+      "kind": "alias-sym",
+      "alias": "lt.tri.eq"
+    },
+    "sub": {
+      "kind": "alias-sym",
+      "alias": "subset"
+    },
+    "kern": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "llbracket": {
+      "kind": "alias-sym",
+      "alias": "bracket.l.double"
+    },
+    "providecommand": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "bigl": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "big"
+    },
+    "reals": {
+      "kind": "alias-sym",
+      "alias": "RR"
+    },
+    "stackrel": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 2
+        }
+      },
+      "alias": null
+    },
+    "hspace": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "cal": {
+      "kind": "greedy-cmd",
+      "alias": "mitexcal"
+    },
+    "Eta": {
+      "kind": "sym"
+    },
+    "degree": {
+      "kind": "alias-sym",
+      "alias": "degree"
+    },
+    "undergroup": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "Supset": {
+      "kind": "alias-sym",
+      "alias": "supset.double"
+    },
+    "ddag": {
+      "kind": "alias-sym",
+      "alias": "dagger.double"
+    },
+    "precapprox": {
+      "kind": "alias-sym",
+      "alias": "prec.approx"
+    },
+    "oslash": {
+      "kind": "alias-sym",
+      "alias": "⊘"
+    },
+    "mathrel": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "Big": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "lt": {
+      "kind": "alias-sym",
+      "alias": "<"
+    },
+    "Gamma": {
+      "kind": "sym"
+    },
+    "smile": {
+      "kind": "alias-sym",
+      "alias": "⌣"
+    },
+    "ratio": {
+      "kind": "alias-sym",
+      "alias": ":"
+    },
+    "varUpsilon": {
+      "kind": "sym"
+    },
+    "rgroup": {
+      "kind": "alias-sym",
+      "alias": "⟯"
+    },
+    "coloncolon": {
+      "kind": "alias-sym",
+      "alias": "::"
+    },
+    "argmin": {
+      "kind": "sym"
+    },
+    "equation": {
+      "kind": "env",
+      "args": {
+        "kind": "none"
+      },
+      "ctx_feature": {
+        "kind": "is-math"
+      },
+      "alias": "aligned"
+    },
+    "N": {
+      "kind": "alias-sym",
+      "alias": "NN"
+    },
+    "": {
+      "kind": "alias-sym",
+      "alias": "thick"
+    },
+    "oe": {
+      "kind": "alias-sym",
+      "alias": "œ"
+    },
+    "geqq": {
+      "kind": "alias-sym",
+      "alias": "gt.equiv"
+    },
+    "infty": {
+      "kind": "alias-sym",
+      "alias": "oo"
+    },
+    "subset": {
+      "kind": "alias-sym",
+      "alias": "subset"
+    },
+    "bigm": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "big"
+    },
+    "limits": {
+      "kind": "cmd",
+      "args": {
+        "kind": "left1"
+      },
+      "alias": "limits"
+    },
+    "in": {
+      "kind": "alias-sym",
+      "alias": "in"
+    },
+    "Coloneq": {
+      "kind": "alias-sym",
+      "alias": "::−"
+    },
+    "varGamma": {
+      "kind": "sym"
+    },
+    "}": {
+      "kind": "alias-sym",
+      "alias": "\\}"
+    },
+    "varkappa": {
+      "kind": "alias-sym",
+      "alias": "kappa.alt"
+    },
+    "textmd": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "Phi": {
+      "kind": "sym"
+    },
+    "equation*": {
+      "kind": "env",
+      "args": {
+        "kind": "none"
+      },
+      "ctx_feature": {
+        "kind": "is-math"
+      },
+      "alias": "aligned"
+    },
+    "textbraceleft": {
+      "kind": "alias-sym",
+      "alias": "{"
+    },
+    "textgreater": {
+      "kind": "alias-sym",
+      "alias": "gt"
+    },
+    "eqcolon": {
+      "kind": "alias-sym",
+      "alias": "dash.colon"
+    },
+    "Larr": {
+      "kind": "alias-sym",
+      "alias": "arrow.l.double"
+    },
+    "curvearrowleft": {
+      "kind": "alias-sym",
+      "alias": "arrow.ccw.half"
+    },
+    "itemize": {
+      "kind": "env",
+      "args": {
+        "kind": "none"
+      },
+      "ctx_feature": {
+        "kind": "is-itemize"
+      },
+      "alias": null
+    },
+    "flat": {
+      "kind": "alias-sym",
+      "alias": "♭"
+    },
+    "trianglerighteq": {
+      "kind": "alias-sym",
+      "alias": "gt.tri.eq"
+    },
+    "colonminus": {
+      "kind": "alias-sym",
+      "alias": ":−"
+    },
+    "nprec": {
+      "kind": "alias-sym",
+      "alias": "prec.not"
+    },
+    "textendash": {
+      "kind": "alias-sym",
+      "alias": "--"
+    },
+    "aligned": {
+      "kind": "env",
+      "args": {
+        "kind": "none"
+      },
+      "ctx_feature": {
+        "kind": "is-math"
+      },
+      "alias": "aligned"
+    },
+    "RequirePackage": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "Bbb": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "bb"
+    },
+    "Set": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "nvDash": {
+      "kind": "alias-sym",
+      "alias": "tack.r.double.not"
+    },
+    "hbox": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "parallel": {
+      "kind": "alias-sym",
+      "alias": "parallel"
+    },
+    "equalscolon": {
+      "kind": "alias-sym",
+      "alias": "=:"
+    },
+    "bold": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "bold"
+    },
+    "rq": {
+      "kind": "alias-sym",
+      "alias": "'"
+    },
+    "Longleftarrow": {
+      "kind": "alias-sym",
+      "alias": "<=="
+    },
+    "hom": {
+      "kind": "sym"
+    },
+    "iffalse": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "Biggl": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "Bigg"
+    },
+    "larr": {
+      "kind": "alias-sym",
+      "alias": "<-"
+    },
+    "ifhbox": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "sqcup": {
+      "kind": "alias-sym",
+      "alias": "union.sq"
+    },
+    "coprod": {
+      "kind": "alias-sym",
+      "alias": "product.co"
+    },
+    "eqsim": {
+      "kind": "alias-sym",
+      "alias": "minus.tilde"
+    },
+    "imath": {
+      "kind": "alias-sym",
+      "alias": "dotless.i"
+    },
+    "footnotesize": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "nsucceq": {
+      "kind": "alias-sym",
+      "alias": "succ.eq.not"
+    },
+    "enspace": {
+      "kind": "sym"
+    },
+    "darr": {
+      "kind": "alias-sym",
+      "alias": "arrow.b"
+    },
+    "Leftrightarrow": {
+      "kind": "alias-sym",
+      "alias": "<=>"
+    },
+    "approxcoloncolon": {
+      "kind": "alias-sym",
+      "alias": "approx::"
+    },
+    "#": {
+      "kind": "alias-sym",
+      "alias": "hash"
+    },
+    "textquotedblright": {
+      "kind": "alias-sym",
+      "alias": "quote.r.double"
+    },
+    "uplus": {
+      "kind": "alias-sym",
+      "alias": "union.plus"
+    },
+    "vert": {
+      "kind": "alias-sym",
+      "alias": "|"
+    },
+    "textup": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "rcases": {
+      "kind": "env",
+      "args": {
+        "kind": "none"
+      },
+      "ctx_feature": {
+        "kind": "is-cases"
+      },
+      "alias": "rcases"
+    },
+    "lbrace": {
+      "kind": "alias-sym",
+      "alias": "\\{"
+    },
+    "eqref": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "#mitexref"
+    },
+    "triangleq": {
+      "kind": "alias-sym",
+      "alias": "eq.delta"
+    },
+    "rightthreetimes": {
+      "kind": "alias-sym",
+      "alias": "times.three.r"
+    },
+    "underbar": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "nleftarrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.l.not"
+    },
+    "pmb": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "bold"
+    },
+    "xRightarrow": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "check": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "caron"
+    },
+    "swarrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.bl"
+    },
+    "xlongequal": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "bigodot": {
+      "kind": "alias-sym",
+      "alias": "dot.circle.big"
+    },
+    "textquotedblleft": {
+      "kind": "alias-sym",
+      "alias": "quote.l.double"
+    },
+    "ignorespaces": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "alef": {
+      "kind": "alias-sym",
+      "alias": "aleph"
+    },
+    "|": {
+      "kind": "alias-sym",
+      "alias": "||"
+    },
+    "ifodd": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "qquad": {
+      "kind": "alias-sym",
+      "alias": "wide"
+    },
+    "approxcolon": {
+      "kind": "alias-sym",
+      "alias": "approx:"
+    },
+    "empty": {
+      "kind": "alias-sym",
+      "alias": "nothing"
+    },
+    "DeclareRobustCommand": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "plim": {
+      "kind": "sym"
+    },
+    "renewcommand*": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "ref": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "#mitexref"
+    },
+    "sqcap": {
+      "kind": "alias-sym",
+      "alias": "sect.sq"
+    },
+    "exist": {
+      "kind": "alias-sym",
+      "alias": "exists"
+    },
+    "implies": {
+      "kind": "alias-sym",
+      "alias": "==>"
+    },
+    "overgroup": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "subsetneq": {
+      "kind": "alias-sym",
+      "alias": "subset.neq"
+    },
+    "Re": {
+      "kind": "alias-sym",
+      "alias": "Re"
+    },
+    "succ": {
+      "kind": "alias-sym",
+      "alias": "succ"
+    },
+    "plusmn": {
+      "kind": "alias-sym",
+      "alias": "plus.minus"
+    },
+    "_": {
+      "kind": "alias-sym",
+      "alias": "\\_"
+    },
+    "dag": {
+      "kind": "alias-sym",
+      "alias": "dagger"
+    },
+    "rightharpoondown": {
+      "kind": "alias-sym",
+      "alias": "harpoon.rb"
+    },
+    "aleph": {
+      "kind": "alias-sym",
+      "alias": "aleph"
+    },
+    "split": {
+      "kind": "env",
+      "args": {
+        "kind": "none"
+      },
+      "ctx_feature": {
+        "kind": "is-math"
+      },
+      "alias": "aligned"
+    },
+    "mathrm": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "upright"
+    },
+    "checkmark": {
+      "kind": "alias-sym",
+      "alias": "checkmark"
+    },
+    "dots": {
+      "kind": "alias-sym",
+      "alias": "dots.h"
+    },
+    "space": {
+      "kind": "sym"
+    },
+    "rightsquigarrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.r.squiggly"
+    },
+    "Lsh": {
+      "kind": "alias-sym",
+      "alias": "↰"
+    },
+    "twoheadleftarrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.l.twohead"
+    },
+    "boxtimes": {
+      "kind": "alias-sym",
+      "alias": "times.square"
+    },
+    "forall": {
+      "kind": "alias-sym",
+      "alias": "forall"
+    },
+    "coth": {
+      "kind": "sym"
+    },
+    "ifvbox": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "argmax": {
+      "kind": "sym"
+    },
+    "looparrowright": {
+      "kind": "alias-sym",
+      "alias": "arrow.r.loop"
+    },
+    "DeclareOption": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "setminus": {
+      "kind": "alias-sym",
+      "alias": "without"
+    },
+    "bigplus": {
+      "kind": "alias-sym",
+      "alias": "plus.circle.big"
+    },
+    "documentclass": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "Game": {
+      "kind": "alias-sym",
+      "alias": "⅁"
+    },
+    "nsubseteq": {
+      "kind": "alias-sym",
+      "alias": "subset.eq.not"
+    },
+    "varPsi": {
+      "kind": "sym"
+    },
+    "ifvoid": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "sphericalangle": {
+      "kind": "alias-sym",
+      "alias": "angle.spheric"
+    },
+    "Complex": {
+      "kind": "alias-sym",
+      "alias": "CC"
+    },
+    "doublecup": {
+      "kind": "alias-sym",
+      "alias": "union.double"
+    },
+    "nvdash": {
+      "kind": "alias-sym",
+      "alias": "tack.r.not"
+    },
+    "!": {
+      "kind": "alias-sym",
+      "alias": "negthinspace"
+    },
+    "nrightarrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.r.not"
+    },
+    "odot": {
+      "kind": "alias-sym",
+      "alias": "dot.circle"
+    },
+    "Eqqcolon": {
+      "kind": "alias-sym",
+      "alias": "=::"
+    },
+    "KaTeX": {
+      "kind": "sym"
+    },
+    "measuredangle": {
+      "kind": "alias-sym",
+      "alias": "angle.arc"
+    },
+    "mapsto": {
+      "kind": "alias-sym",
+      "alias": "|->"
+    },
+    "smallint": {
+      "kind": "sym"
+    },
+    "doteqdot": {
+      "kind": "alias-sym",
+      "alias": "≑"
+    },
+    "centerdot": {
+      "kind": "alias-sym",
+      "alias": "dot.op"
+    },
+    "th": {
+      "kind": "sym"
+    },
+    "S": {
+      "kind": "alias-sym",
+      "alias": "section"
+    },
+    "eqslantless": {
+      "kind": "alias-sym",
+      "alias": "⪕"
+    },
+    "Downarrow": {
+      "kind": "alias-sym",
+      "alias": "arrow.b.double"
+    },
+    "iff": {
+      "kind": "alias-sym",
+      "alias": "arrow.l.r.double.long"
+    },
+    "succsim": {
+      "kind": "alias-sym",
+      "alias": "succ.tilde"
+    },
+    "overrightharpoon": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "mathfrak": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "frak"
+    },
+    "vartriangleleft": {
+      "kind": "alias-sym",
+      "alias": "lt.tri"
+    },
+    "bigcup": {
+      "kind": "alias-sym",
+      "alias": "union.big"
+    },
+    "ifnum": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "top": {
+      "kind": "alias-sym",
+      "alias": "top"
+    },
+    "backsimeq": {
+      "kind": "alias-sym",
+      "alias": "tilde.eq.rev"
+    },
+    "partial": {
+      "kind": "alias-sym",
+      "alias": "diff"
+    },
+    "negthinmedspace": {
+      "kind": "sym"
+    },
+    "xrightharpoondown": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "aa": {
+      "kind": "alias-sym",
+      "alias": "circle(A)"
+    },
+    "ll": {
+      "kind": "alias-sym",
+      "alias": "lt.double"
+    },
+    "Omicron": {
+      "kind": "sym"
+    },
+    "textbf": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": null
+    },
+    "urcorner": {
+      "kind": "alias-sym",
+      "alias": "⌝"
+    },
+    "bm": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "bold"
+    },
+    "preccurlyeq": {
+      "kind": "alias-sym",
+      "alias": "prec.eq"
+    },
+    "O": {
+      "kind": "alias-sym",
+      "alias": "nothing"
+    },
+    "varPhi": {
+      "kind": "sym"
+    },
+    "circledS": {
+      "kind": "alias-sym",
+      "alias": "Ⓢ"
+    },
+    ",": {
+      "kind": "alias-sym",
+      "alias": "thin"
+    },
+    "mathcal": {
+      "kind": "cmd",
+      "args": {
+        "kind": "right",
+        "pattern": {
+          "kind": "fixed-len",
+          "len": 1
+        }
+      },
+      "alias": "cal"
+    },
+    "equalscoloncolon": {
+      "kind": "alias-sym",
+      "alias": "=::"
+    },
+    "bigwedge": {
+      "kind": "alias-sym",
+      "alias": "and.big"
+    },
+    "rtimes": {
+      "kind": "alias-sym",
+      "alias": "times.r"
+    },
+    "equiv": {
+      "kind": "alias-sym",
+      "alias": "equiv"
+    },
+    "spades": {
+      "kind": "alias-sym",
+      "alias": "suit.spade"
+    },
+    "ifdim": {
+      "kind": "alias-sym",
+      "alias": ""
+    },
+    "det": {
+      "kind": "sym"
+    },
+    "simeq": {
+      "kind": "alias-sym",
+      "alias": "tilde.eq"
+    }
+  }
+}

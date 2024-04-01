@@ -1,0 +1,2 @@
+detexify.json filter=lfs diff=lfs merge=lfs -text
+NewCMMath-Regular.otf filter=lfs diff=lfs merge=lfs -text
