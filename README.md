@@ -1,4 +1,4 @@
-# Detypify Data
+# Detypify External
 
 - Requires [Git LFS](https://git-lfs.com/)
 - Licenses locates in [vendors](./vendors/) folder
