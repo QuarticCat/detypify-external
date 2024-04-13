@@ -33,12 +33,6 @@
 
 1. Move `target/mitex-artifacts/spec/default.json` here
 
-### Unicode-Math Symbols Mapping
-
-**Contains mapping from unicodes to LaTeX symbols**
-
-1. Dowanload `unicode-math-table.tex` from [unicode-math](https://github.com/latex3/unicode-math/tree/master)
-
 ### Typst Symbol Page
 
 **Contains information about Typst symbols**
