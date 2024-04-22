@@ -1,7 +1,7 @@
 # Detypify External
 
 - Requires [Git LFS](https://git-lfs.com/)
-- Licenses locates in [vendors](./vendors/) folder
+- Licenses locate in [vendors](./vendors/) folder
 - Check [detypify](https://github.com/QuarticCat/detypify) repo for detailed usage
 
 ## Where Are They From
