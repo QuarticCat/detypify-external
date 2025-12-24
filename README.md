@@ -19,20 +19,6 @@
     $ psql detypify -qAtXc 'SELECT json_agg(json_build_array(key, strokes)) FROM samples' -o detexify.json
     ```
 
-### MiTeX Symbol Mapping
-
-**Contains mapping from LaTeX symbols to Typst symbols**
-
-1. Clone [mitex](https://github.com/mitex-rs/mitex) and build `mitex-spec-gen`
-
-    ```console
-    $ git clone https://github.com/mitex-rs/mitex
-    $ cd mitex
-    $ cargo build --package=mitex-spec-gen
-    ```
-
-1. Move `target/mitex-artifacts/spec/default.json` here
-
 ### Typst Symbol Page
 
 **Contains information about Typst symbols**
