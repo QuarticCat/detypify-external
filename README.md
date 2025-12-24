@@ -37,9 +37,9 @@
 
 **Contains information about Typst symbols**
 
-1. Access https://typst.app/docs/reference/symbols/sym/ in your browser
-
-1. Right click -> Save as -> `typ_sym.html`
+```console
+$ curl https://typst.app/docs/reference/symbols/sym/ -o typ_sym.html
+```
 
 ### Symbol Font
 
