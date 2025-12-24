@@ -6,22 +6,24 @@
 
 ## Where Are They From
 
-### Training Data
+### Training Dataset
 
-**Contains original training data of detexify**
+**Contains training dataset from detexify.**
 
-1. Download `detexify.sql.gz` and `symbols.json` from [detexify-data](https://github.com/kirel/detexify-data)
+Source: https://github.com/kirel/detexify-data
 
-1. Convert training data to JSON (so that others don't have to host a PostgreSQL database to bootstrap)
-
-    ```console
-    $ gunzip -c detexify.sql.gz | psql detypify
-    $ psql detypify -qAtXc 'SELECT json_agg(json_build_array(key, strokes)) FROM samples' -o detexify.json
-    ```
+```console
+$ # TODO: Download detexify.sql.gz & symbols.json here.
+$ gunzip -c detexify.sql.gz | psql detypify
+$ psql detypify -qAtXc 'SELECT json_agg(json_build_array(key, strokes)) FROM samples' -o detexify.json
+$ rm detexify.sql.gz
+```
 
 ### Typst Symbol Page
 
-**Contains information about Typst symbols**
+**Contains Typst symbol information.**
+
+Source: https://typst.app/docs/reference/symbols/sym
 
 ```console
 $ curl https://typst.app/docs/reference/symbols/sym/ -o typ_sym.html
@@ -29,8 +31,12 @@ $ curl https://typst.app/docs/reference/symbols/sym/ -o typ_sym.html
 
 ### Symbol Font
 
-**Used to present symbols on the website**
+**The font used for symbols on the website.**
 
-1. Download *NewComputerModern* from [CTAN](https://ctan.org/pkg/newcomputermodern?lang=en)
+Source: https://ctan.org/pkg/newcomputermodern
 
-1. Extract and move `NewCMMath-Regular.otf` here
+```console
+$ curl https://ctan.math.washington.edu/tex-archive/fonts/newcomputermodern.zip -O
+$ unzip -j newcomputermodern.zip '**/NewCMMath-Regular.otf'
+$ rm newcomputermodern.zip
+```
