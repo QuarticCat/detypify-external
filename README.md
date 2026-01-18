@@ -8,15 +8,37 @@
 
 ### Training Dataset
 
+#### detexify
+
 **Contains training dataset from detexify.**
 
 Source: https://github.com/kirel/detexify-data
 
-```console
-$ # TODO: Download detexify.sql.gz & symbols.json here.
-$ gunzip -c detexify.sql.gz | psql detypify
-$ psql detypify -qAtXc 'SELECT json_agg(json_build_array(key, strokes)) FROM samples' -o detexify.json
-$ rm detexify.sql.gz
+`detexify.json` obtained by
+
+```bash
+# TODO: Download detexify.sql.gz & symbols.json here.
+gunzip -c detexify.sql.gz | psql detypify
+psql detypify -qAtXc 'SELECT json_agg(json_build_array(key, strokes)) FROM samples' -o detexify.json
+rm detexify.sql.gz
+```
+
+#### MathWriting Dataset
+
+Source: https://github.com/google-research/google-research/tree/master/mathwriting
+
+**Contains extracted data from math MathWriting dataset**
+
+`mathwriting-2024-symbols.tar.zst` obtained by
+
+```bash
+# TODO: Download full dataset (mathwriting-2024.tgz) according to README
+# only symbols.jsonl file, train, symbols folder are needed
+
+# filter and decompress
+tar xzvf mathwriting-2024.tgz mathwriting-2024/symbols.jsonl mathwriting-2024/train mathwriting-2024/symbols
+# repack
+tar cavf mathwriting-2024-symbols.tar.zst mathwriting-2024
 ```
 
 ### Typst Symbol Page
