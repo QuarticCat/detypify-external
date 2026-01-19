@@ -25,7 +25,8 @@ rm detexify.sql.gz
 
 #### MathWriting Dataset
 
-Source: https://github.com/google-research/google-research/tree/master/mathwriting
+Description: https://github.com/google-research/google-research/tree/master/mathwriting
+Download Link: https://storage.googleapis.com/mathwriting_data/mathwriting-2024.tgz
 
 **Contains extracted data from math MathWriting dataset**
 
@@ -33,10 +34,10 @@ Source: https://github.com/google-research/google-research/tree/master/mathwriti
 
 ```bash
 # TODO: Download full dataset (mathwriting-2024.tgz) according to README
-# only symbols.jsonl file, train, symbols folder are needed
+# only symbols folder are needed
 
 # filter and decompress
-tar xzvf mathwriting-2024.tgz mathwriting-2024/symbols.jsonl mathwriting-2024/train mathwriting-2024/symbols
+tar xzvf mathwriting-2024.tgz mathwriting-2024/symbols
 # repack
 tar cavf mathwriting-2024-symbols.tar.zst mathwriting-2024
 ```
