@@ -1,3 +1,1 @@
 NewCMMath-Regular.otf filter=lfs diff=lfs merge=lfs -text
-dataset/detexify filter=lfs diff=lfs merge=lfs -text
-dataset/mathwriting-2024-symbols.tar.zst filter=lfs diff=lfs merge=lfs -text
