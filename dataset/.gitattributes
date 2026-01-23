@@ -1,0 +1,2 @@
+mathwriting.tar.xz filter=lfs diff=lfs merge=lfs -text
+detexify/detexify.json.xz filter=lfs diff=lfs merge=lfs -text

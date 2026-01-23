@@ -8,15 +8,42 @@
 
 ### Training Dataset
 
+#### detexify
+
 **Contains training dataset from detexify.**
 
 Source: https://github.com/kirel/detexify-data
 
-```console
-$ # TODO: Download detexify.sql.gz & symbols.json here.
-$ gunzip -c detexify.sql.gz | psql detypify
-$ psql detypify -qAtXc 'SELECT json_agg(json_build_array(key, strokes)) FROM samples' -o detexify.json
-$ rm detexify.sql.gz
+
+`detexify.json.xz` obtained by
+
+UNZIP with `unxz detexify/detexify.json.xz` BEFORE USE
+
+```bash
+# TODO: Download detexify.sql.gz & symbols.json here.
+gunzip -c detexify.sql.gz | psql detypify
+psql detypify -qAtXc 'SELECT json_agg(json_build_array(key, strokes)) FROM samples' -o detexify.json
+rm detexify.sql.gz
+xz detexify.json
+```
+
+#### MathWriting Dataset
+
+Description: https://github.com/google-research/google-research/tree/master/mathwriting
+Download Link: https://storage.googleapis.com/mathwriting_data/mathwriting-2024.tgz
+
+**Contains extracted data from math MathWriting dataset**
+
+`mathwriting-2024-symbols.tar.xz` obtained by
+UNZIP with `tar cavf mathwriting-2024-symbols.tar.xz` BEFORE USE
+```bash
+# TODO: Download full dataset (mathwriting-2024.tgz) according to README
+# only symbols folder are needed
+
+# filter and decompress
+tar xzvf mathwriting-2024.tgz mathwriting-2024/symbols
+# repack
+tar cavf mathwriting-2024-symbols.tar.xz mathwriting-2024
 ```
 
 ### Typst Symbol Page
